@@ -1,5 +1,12 @@
 .sidebar {
-  width: 30%;
-  float: center;
+  width: 20%;
+  float: left;
   background-color: fuchsia;
+}
+
+
+img {
+  width: 30;
+  float: left;
+  background-color: teal;
 }
