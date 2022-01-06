@@ -1,32 +1,43 @@
 .sidebar {
   width: 20%;
+  height: 100%;
   float: left;
   background-color: fuchsia;
+  padding: 5px;
+  display: block;
 }
 
 
-img {
-  width: 30;
-  float: left;
-}
+
 
 .border1 {
   margin: 12px;
-  border: 10px lightcoral;
+  border: 30px;
   padding: 15px;
   background-color: gray;
   box-sizing: border-box;
   border-width: 5px;
+  display: block;
 }
 
 .border2 {
-  margin: 10px;
-  border: 7px slateblue;
-  padding: 5px;
-  margin-bottom: 2px;
-  background-color: grey;
+  border: 2px solid green;
+  padding: 10px;
+  background-color: orange;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
   box-sizing: border-box;
-  border-width: 5px;
+}
+
+.image {
+  float: left;
+  margin: auto;
+  width: 30;
+  height: auto;
+  display: block;
 }
 
 .border3 {
@@ -37,4 +48,11 @@ img {
   background-color: orange;
   margin-bottom: 10px;
   box-sizing: border-box;
+}
+
+.shakira2 {
+  margin: auto;
+  width: 50%;
+  height: auto;
+  display: block;
 }
